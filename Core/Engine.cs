@@ -6,7 +6,7 @@ namespace Morz.Core
 {
     class Engine : IEngine
     {
-        private readonly Controller morse;
+        private readonly IController morse;
         private readonly IReader reader;
         private readonly IWriter writer;
         public Engine(IReader reader, IWriter writer,Controller morse)
